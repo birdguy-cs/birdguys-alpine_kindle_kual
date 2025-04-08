@@ -14,7 +14,7 @@ press_any_key()
 	done
 }
 
-DOWNLOAD_URL="$(curl -s https://api.github.com/repos/schuhumi/alpine_kindle_kual/releases/latest \
+DOWNLOAD_URL="$(curl -s https://api.github.com/repos/birdguy-cs/birdguys-alpine_kindle_kual/releases/latest \
   | grep browser_download_url \
   | grep alpine_kindle_kual.zip \
   | grep -v .zip.sig \
